@@ -48,6 +48,10 @@ The eslint verified extension for VSCode is recommended.
 
 See .prettierrc.yml to take a look to the current configuration, also see the [Prettier documentation](https://prettier.io/docs/en/configuration.html) for customize according to your style.
 
+Run `npm run format` to format the code.
+
+The prettier verified extension for VSCode is recommended.
+
 > **Warning**
 > eslint-config-prettier is used to avoid conflicts between eslint and prettier. With this approach ESLint won't report style issues that are taken care of by Prettier.
 
